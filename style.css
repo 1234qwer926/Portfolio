@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0px;
     padding: auto;
@@ -187,3 +188,175 @@ a{
 
 
 
+=======
+* {
+    margin: 0px;
+    padding: auto;
+}
+
+body {
+    background-color: rgb(1,21,50) !important;
+}
+
+.main {
+    width: 100%;
+}
+
+#retro {
+    width: 100%;
+    border: 2px solid rgb(1,21,50);
+    z-index: -1;
+}
+
+#retro video {
+    width: 100%;
+}
+
+#naver {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    width: 100%;
+    background-color: rgb(1,21,50) !important;
+    color: white !important;
+}
+
+.nav-link, .navbar-brand, .navbar-toggler-icon, .navbar-toggler {
+    color: white;
+}
+
+#name {
+    padding: 50px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+#name h1 {
+    font-size: 80px;
+    color: white;
+}
+
+#name p {
+    font-size: 20px;
+    color: green;
+}
+
+/* Media Queries */
+@media (max-width: 2560px) {
+    #name h1 {
+        font-size: 80px;
+    }
+    #name p{
+        font-size: 25px;
+    }
+    #name {
+        left: 100px;
+        top: 250px;
+        padding: 30px;
+    }
+}
+@media (max-width: 1440px) {
+    #name h1 {
+        font-size: 50px;
+    }
+    #name p{
+        font-size: 12px;
+    }    #name {
+        left: 100px;
+        top: 200px;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    #name h1 {
+        font-size: 40px;
+    }
+    #name {
+        left: 60px;
+        top: 100px;
+        padding: 20px;
+    }
+}
+@media (max-width: 600px) {
+    #name h1 {
+        font-size: 25px;
+    }
+    #name {
+        left: 25px;
+        top: 45px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    #name h1 {
+        font-size: 25px;
+    }
+    #name {
+        left: 10px;
+        top: 40px;
+        padding: 10px;
+    }
+}
+
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.about .pic{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.about .pic img{
+    width: 310px;
+    height: 413px;
+
+}
+.about .sumary{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about .sumary .matter{
+   padding: 50px;
+   color: white;
+}
+@media(width <=550px){
+    .about{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .sumary .matter{
+        padding-left: 0px;
+        padding-right: 0px;
+        color: white;
+     }
+}
+
+@media(width <=375){
+    .about .sumary .matter {
+        width: 70%;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 7f9ccd789b22da43622397066b20634d2a3c7d6e
