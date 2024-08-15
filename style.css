@@ -162,6 +162,7 @@ body {
         top: 60px;
         
     }
+
 }
 
 /* About Section */
@@ -447,6 +448,6 @@ a {
 h3{
     color: white;
     width: 200px;
-    /* text-align: center; */
+    text-align: center;
     margin: 20px;
 }
