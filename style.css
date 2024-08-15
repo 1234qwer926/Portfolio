@@ -147,7 +147,7 @@ body {
 
     #name {
         left: 25px;
-        top: 45px;
+        top: 60px;
         padding: 10px;
     }
 }
@@ -446,7 +446,7 @@ a {
 
 h3{
     color: white;
-    width: 300px;
-    text-align: center;
+    width: 200px;
+    /* text-align: center; */
     margin: 20px;
 }
