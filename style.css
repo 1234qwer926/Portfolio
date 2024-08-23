@@ -194,6 +194,9 @@ body {
     padding: 50px;
     color: white;
 }
+.about .summary .matter p{
+    text-align: justify;
+}
 
 @media (width <= 550px) {
     .about {
